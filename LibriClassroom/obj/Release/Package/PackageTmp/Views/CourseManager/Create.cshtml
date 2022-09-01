@@ -1,0 +1,83 @@
+﻿@model LibriClassroom.Models.LibriCourse
+@{
+    ViewBag.Title = "Add Course";
+}
+
+<!-- Breadcrumbs line -->
+<div class="crumbs">
+    <ul id="breadcrumbs" class="breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="@Url.Action("Index", new { controller = "Home" })">Home</a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", new { controller = "CourseManager" })" title="">Courses</a>
+        </li>
+        <li class="current">
+            <a href="@Url.Action("Create", new { controller = "CourseManager" })" title="">Add</a>
+        </li>
+    </ul>
+</div>
+<!-- /Breadcrumbs line -->
+
+<!--=== Page Header ===-->
+<div class="page-header">
+    <div class="page-title">
+        <h3>Add Course</h3>
+        <span>@ViewBag.Message</span>
+    </div>
+</div>
+<!-- /Page Header -->
+
+
+<!--=== Page Content ===-->
+<div class="row">
+    <div class="col-md-12">
+        <div class="widget box">
+            <div class="widget-header">
+                <h4><i class="icon-reorder"></i>Adding new course</h4>
+            </div>
+            <div class="widget-content">
+                @*<form class="form-horizontal row-border" action="#">*@
+                @using (Html.BeginForm("Create", "CourseManager", FormMethod.Post, new { @class = "form-horizontal row-border" }))
+                {
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Title:</label>
+                        <div class="col-md-10">
+                            <input type="text" name="Title" class="form-control">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Code:</label>
+                        <div class="col-md-10">
+                            <input type="text" name="CourseCode" class="form-control">
+                        </div>
+                    </div>
+                    @*
+                        
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Term:</label>
+                        <div class="col-md-10">
+                            @Html.DropDownList("Term", ViewBag.semestrat as SelectList, new { @class = "formcontrol" })
+                        </div>
+                    </div>*@
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Teacher Username:</label>
+                        <div class="col-md-10">
+                            <input type="text" name="OwnerId" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <input type="submit" value="Add" class="btn btn-primary pull-right">
+                    </div>
+                }
+                @*</form>*@
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Page Content -->
+

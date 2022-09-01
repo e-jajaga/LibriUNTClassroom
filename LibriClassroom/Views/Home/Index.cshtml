@@ -1,0 +1,101 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home Page";
+}
+
+<link href="Content/nivo/nivo-slider.css" rel="stylesheet" type="text/css" />
+<link href="Content/nivo/default.css" rel="stylesheet" type="text/css" />
+<script src="scripts/jquery.nivo.slider.js" type="text/javascript"></script>
+<!--=== Page Content ===-->
+<div class="col-md-8">
+    @*<div class="row">
+        <div id="wrapper" style="">
+            <div class="slider-wrapper theme-default" style="margin-top: 8px;">
+                <div id="slider" class="nivoSlider">
+                    <img width="715" src="Images/banner2.jpg" data-thumb="Images/banner2.jpg" data-transition="fade"
+                         alt="" />
+                    <img width="715" src="Images/banner3.jpg" data-thumb="Images/banner3.jpg" data-transition="fade"
+                         alt="" />
+                    <img width="715" src="Images/banner4.jpg" data-thumb="Images/banner4.jpg" data-transition="fade"
+                         alt="" />
+                </div>
+            </div>
+        </div>
+    </div>*@
+
+    <div class="page-header">
+        <div class="page-title">
+            <h3>@ViewBag.Title</h3>
+            <p>@Html.Raw(ViewBag.Message)</p>
+        </div>
+    </div>
+
+    <!-- /Page Content -->
+
+</div>
+<div class="col-md-4">
+    <div class="well" style="border: none; background: none;">
+
+        @*@(Html.Kendo().DatePicker().Name("datepicker"))*@
+
+        @*<a class="twitter-timeline" href="https://twitter.com/libriseeu" data-widget-id="398033998431019008">Tweets by libriseeu</a>
+        <script>
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+            $(function () {
+                $('#slider').nivoSlider({
+                    directionNav: false,
+                    controlNav: false
+                });
+            });
+        </script>*@
+
+        @*<p>Authenticated: @User.Identity.IsAuthenticated</p>
+
+            <br>*@
+
+        @*<div class="widget box">
+                <div class="widget-header">
+                    <h4><i class="icon-reorder"></i> Table Title</h4>
+                    <div class="toolbar no-padding">
+                        <div class="btn-group">
+                            <span class="btn btn-xs widget-collapse"><i class="icon-angle-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-content">
+                    @{
+                        dynamic identity = User.Identity;
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Value</th>
+                                    <th>Issuer</th>
+                                    <th>Original Issuer</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var claim in identity.Claims)
+                                {
+                                    <tr>
+                                        <td>@claim.Type</td>
+                                        <td>@claim.Value</td>
+                                        <td>@claim.Issuer</td>
+                                        <td>@claim.OriginalIssuer</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>*@
+    </div>
+</div>
+<!-- /Page Content -->

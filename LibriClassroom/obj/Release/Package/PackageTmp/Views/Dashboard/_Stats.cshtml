@@ -1,0 +1,98 @@
+﻿@model LibriClassroom.CourseStat
+
+@if (Model != null)
+{
+    <li class="dd-item" data-id="1">
+        <button data-action="collapse" type="button" style="display: block;">Collapse</button>
+        <button data-action="expand" type="button" style="display: none;">Expand</button>
+        <div class="dd-handle">About</div>
+        <ol class="dd-list">
+            <li class="dd-item" data-id="2">
+                <div class="dd-handle">
+                    Syllabus 
+                    @if (Model.hasSyllabus != null && Model.hasSyllabus == true)
+                    { 
+                        <i class="icon-ok"></i>
+                    }
+                    else
+                    {
+                        <i class="icon-remove"></i>
+                    }
+                </div>
+            </li>
+            <li class="dd-item" data-id="3">
+                <div class="dd-handle">
+                    Resources 
+                    @if (Model.hasResources != null && Model.hasResources == true)
+                    { 
+                        <i class="icon-ok"></i>
+                    }
+                    else
+                    {
+                        <i class="icon-remove"></i>
+                    }
+                    (@Model.nrResources)
+                </div>
+            </li>
+        </ol>
+        <button data-action="collapse" type="button" style="display: block;">Collapse</button>
+        <button data-action="expand" type="button" style="display: none;">Expand</button>
+        <div class="dd-handle">Stream</div>
+        <ol class="dd-list">
+            <li class="dd-item" data-id="4">
+                <div class="dd-handle">
+                    Assignments 
+                    @if (Model.hasAssignments != null && Model.hasAssignments == true)
+                    { 
+                        <i class="icon-ok"></i>
+                    }
+                    else
+                    {
+                        <i class="icon-remove"></i>
+                    }
+                    (@Model.nrAssignments)
+                </div>
+            </li>
+            <li class="dd-item" data-id="5">
+                <div class="dd-handle">
+                    Posts (@Model.nrStreams)
+                </div>
+            </li>
+        </ol>
+    </li>
+    <li class="dd-item" data-id="6">
+        <div class="dd-handle">
+            Students (@Model.nrStudents)
+        </div>
+    </li>
+    <li class="dd-item" data-id="7">
+        <div class="dd-handle">
+            <strong>Course Level: 
+                @if(Model.courseLevel == 21) 
+                {
+                    <text>2.1</text>
+                } else if(Model.courseLevel == 22)
+                {
+                    <text>2.2</text>
+                } else if(Model.courseLevel == 23)
+                {
+                    <text>2.1</text>
+                } else 
+                {
+                    <text>@Model.courseLevel</text>
+                }
+            </strong>
+        </div>
+    </li>
+}
+else
+{
+    <text>No stats available!</text>
+}
+<fieldset>
+    <legend>Legend:</legend>
+    <b>Level 0 </b>= no syllabus, no resources, no assignments<br>
+    <b>Level 1 </b>= Syllabus + 12 Lessons [ pdf/ doc/ ppt/ drive/ links ] + Announcements [ regular ]<br>
+    <b>Level 2.1 </b>= Level 1 + Assignment [ homework/ case study/ seminar paper ]<br>
+    <b>Level 2.2 </b>= Level 2.2 + Assignments [ different types ]<br>
+</fieldset>

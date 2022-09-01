@@ -1,0 +1,108 @@
+﻿@model LibriClassroom.Models.LibriCourse
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="col-md-12">
+    <div class="row"></div>
+    <div class="row">
+    <div>
+        <h2>Course details: @Model.Title</h2>
+
+        <dl style="margin-bottom: 0;">
+            <dt>
+                @Html.DisplayNameFor(model => model.Id)</dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.Title)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.CourseCode)</strong>
+            </dt>
+            <dd>
+                <a href="@Model.CourseCode">@Model.CourseCode</a>
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.EnrollmentCode)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.EnrollmentCode)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.Term)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Term)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.OwnerId)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.OwnerId)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.Link)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Link)
+            </dd>
+
+            <dt>
+                <strong>
+                    @Html.DisplayNameFor(model => model.CreationTime)</strong>
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.CreationTime)
+            </dd>
+
+            <dt>
+                <strong>Instructors</strong>
+            </dt>
+            <dd>
+                @foreach (var inst in Model.Teachers)
+                {
+                    <text>@inst.TeacherName</text><br />
+                }
+            </dd>
+            <dt>
+                <strong>Students</strong>
+            </dt>
+            <dd>
+                @if (Model.Students != null)
+                {
+                    foreach (var st in Model.Students)
+                    {
+                    <text>@st.StudentName - @st.Username</text><br />
+                    }
+                }
+            </dd>
+        </dl>
+    </div>
+    <br />
+    <p>
+        @Html.ActionLink("Delegate", "Delegate", new { id = Model.Id }) | 
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+    
+    </p>
+
+    </div>
+</div>

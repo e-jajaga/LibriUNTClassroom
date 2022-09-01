@@ -1,0 +1,33 @@
+﻿@model List<LibriClassroom.ViewModels.CourseInstructorVM>
+
+@if (Model != null && Model.Any())
+{
+    <p><strong>@Model.Count </strong>courses</p>    
+    <table class="table table-striped table-hover table-responsive datatable">
+        <thead>
+        <tr>
+            <th class="align-center">
+                Course
+            </th>
+            <th>Instructor
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ci in Model)
+        {
+            <tr>
+                <td class="align-center">
+                   @ci.kursi
+                </td>
+                <td>
+                    @ci.instruktori
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{ 
+    <p>No courses found!</p>
+}

@@ -1,0 +1,525 @@
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\resources\elckey.p12
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\resources\adminkey.p12
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\melon\assets\js\libs\jquery-1.10.2.min.js
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\LibriClassroom.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\LibriClassroom.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Antlr3.Runtime.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\EntityFramework.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\log4net.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Infrastructure.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Spatial.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Optimization.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Razor.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\WebGrease.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Zlib.Portable.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\log4net.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\EntityFramework.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Razor.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\System.Spatial.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\Zlib.Portable.xml
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\de\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\es\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\fr\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\it\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ja\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ko\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\ru\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hans\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\bin\zh-Hant\System.Spatial.resources.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.dll
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.pdb
+d:\personal\documents\visual studio 2012\Projects\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.csprojResolveAssemblyReference.cache
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\resources\elckey.p12
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\resources\adminkey.p12
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\melon\assets\js\libs\jquery-1.10.2.min.js
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Antlr3.Runtime.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\log4net.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Optimization.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebGrease.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\log4net.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.xml
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.pdb
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.csprojResolveAssemblyReference.cache
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.dll
+C:\Users\edmond.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.Mvc.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\resources\elckey.p12
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\resources\adminkey.p12
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\melon\assets\js\libs\jquery-1.10.2.min.js
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Antlr3.Runtime.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.Mvc.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Kendo.Mvc.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\log4net.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Optimization.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebGrease.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.pdb
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Kendo.Mvc.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\log4net.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.xml
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\bg-BG\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\cs-CZ\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\da-DK\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de-DE\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es-ES\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr-CA\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr-FR\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it-IT\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\nl-NL\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\pl-PL\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\pt-BR\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\pt-PT\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ro-RO\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru-RU\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\sk-SK\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\sv-SE\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\tr-TR\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\uk-UA\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-CN\Kendo.Mvc.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\de\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\es\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\fr\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\it\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ja\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ko\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\ru\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.csprojResolveAssemblyReference.cache
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.dll
+C:\Users\e.jajaga\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\resources\elckey.p12
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\resources\adminkey.p12
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\melon\assets\js\libs\jquery-1.10.2.min.js
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\LibriClassroom.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Antlr3.Runtime.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Elmah.Mvc.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\log4net.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Infrastructure.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Optimization.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\WebGrease.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\BouncyCastle.Crypto.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.Mvc4.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Auth.PlatformServices.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Classroom.v1.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Core.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.Drive.v2.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Google.Apis.PlatformServices.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Kendo.Mvc.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\log4net.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Newtonsoft.Json.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\EntityFramework.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Net.Http.Formatting.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Helpers.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.WebHost.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Mvc.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Razor.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Deployment.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.WebPages.Razor.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.Data.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\WebMatrix.WebData.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.AspNet.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.Core.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OAuth.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Web.Http.OData.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.Edm.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Microsoft.Data.OData.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\System.Spatial.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\Zlib.Portable.xml
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\bg-BG\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\cs-CZ\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\da-DK\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\de-DE\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\es-ES\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\fr-CA\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\fr-FR\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\it-IT\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\nl-NL\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\pl-PL\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\pt-BR\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\pt-PT\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ro-RO\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ru-RU\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\sk-SK\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\sv-SE\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\tr-TR\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\uk-UA\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-CN\Kendo.Mvc.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\de\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\es\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\it\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\de\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\es\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\fr\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\it\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ja\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ko\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\ru\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hans\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\zh-Hant\System.Spatial.resources.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.csprojResolveAssemblyReference.cache
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.dll
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\obj\Debug\LibriClassroom.pdb
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\resources\untkey.p12
+D:\Personal\Desktop\LibriClassroom\LibriClassroom\bin\resources\unt-edi.p12

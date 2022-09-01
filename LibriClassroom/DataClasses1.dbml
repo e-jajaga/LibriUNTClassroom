@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Google" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=classroom\mssqlserver2008;Initial Catalog=Google;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GoogleConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LibriDepDean" Member="LibriDepDeans">
+    <Type Name="LibriDepDean">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="depname" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="deanname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KursiMeMateriale" Member="KursiMeMateriales">
+    <Type Name="KursiMeMateriale">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="jan" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="feb" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mar" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="apr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="may" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="jun" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="jul" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="aug" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sep" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="oct" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nov" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dec" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="reportingid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="Reporting_KursiMeMateriale" Member="Reporting" ThisKey="reportingid" OtherKey="id" Type="Reporting" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Feed" Member="Feeds">
+    <Type Name="Feed">
+      <Column Name="id" Type="System.String" DbType="NVarChar(150) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="courseId" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="matSetName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="workType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="alternateLink" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="updateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ThumbnailUrl" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="ResponseUrl" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Association Name="Kursi_Feed" Member="Kursi" ThisKey="courseId" OtherKey="id" Type="Kursi" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Reporting" Member="Reportings">
+    <Type Name="Reporting">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="perqindjaKurseveMeMateriale" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalMateriale" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalMaterialeJavaFundit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalDetyra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalDetyraJavaFundit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalLende" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="totalLendePaMateriale" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nrLendeMeSyllPaMat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="timeStamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="department" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="termid" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="Reporting_KursiMeMateriale" Member="KursiMeMateriales" ThisKey="id" OtherKey="reportingid" Type="KursiMeMateriale" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GoogleUser" Member="GoogleUsers">
+    <Type Name="GoogleUser">
+      <Column Name="GoogleID" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Fullname" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="depid" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kursi" Member="Kursis">
+    <Type Name="Kursi">
+      <Column Name="id" Type="System.String" DbType="NVarChar(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="coursecode" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="updatetime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ownerid" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="termid" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="depid" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="link" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EnrollmentCode" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Kursi_Feed" Member="Feeds" ThisKey="id" OtherKey="courseId" Type="Feed" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CourseDelegation" Member="CourseDelegations">
+    <Type Name="CourseDelegation">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="kursiid" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CourseStats" Member="CourseStats">
+    <Type Name="CourseStat">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="courseId" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="userid" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="nrStudents" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="hasSyllabus" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="hasResources" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="hasAssignments" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="nrResources" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nrAssignments" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nrStreams" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="courseLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

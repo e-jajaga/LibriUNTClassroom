@@ -1,0 +1,160 @@
+﻿@model List<LibriClassroom.ViewModels.CourseViewModel>
+
+@if (Model != null && Model.Any())
+{
+    dynamic identity = User.Identity;
+    string email = String.Empty;
+    foreach (var claim in identity.Claims)
+    {
+        if (claim.Type == "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress")
+        {
+            email = claim.Value;
+        }
+    }
+    int i = 1;
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4">
+                <div class="well" >
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="http:@course.Teachers.First().PhotoUrl" />
+                        </div>
+                        
+                        <div id="@course.Id" class="col-md-8">
+                            <dl style="margin-bottom: 0;">
+                                <dt>Course:</dt>
+                                <dd>@course.Title</dd>
+                                <dt>Instructor(s):</dt>
+                                <dd>
+                                    @if (course.Teachers.Any())
+                                    {
+                                        int teachnr = course.Teachers.Count(); int j = 1;
+                                        foreach (var teacher in course.Teachers)
+                                        {
+                                            <text>@teacher.TeacherName</text>
+                                            if (j < teachnr)
+                                            {
+                                                <text>, &nbsp;</text>
+                                            }
+                                        }
+                                    }
+                                </dd>
+                                <dt></dt>
+                                <dd>
+                                    @if (course.Enrolled)
+                                    {
+                                        @*<a class="icon-play-sign" href="@Url.Action("Content", new { controller = "Course", id = course.Id, resourceid = course.ResourceId, title = course.Title })">Enter </a>*@
+                                        <button class="btn btn-xs btn-primary" onclick="location.href='@course.Link'">Enter</button>
+                                    }
+                                    else
+                                    {
+                                        <a data-toggle="modal" href="#myModal1" class="enrolByPINdialog btn btn-xs btn-warning" data-id="@course.Id">Join</a>
+                                    }
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="modal fade" id="myModal1" aria-hidden="true" style="display: none;">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <h4 class="modal-title">Enter class code to join</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="text" id="name" class="form-control input-width-xxlarge" placeholder="Enter code here" style="display: block; margin-top: 6px;" />
+                                        <input type="hidden" id="courseid" /><input type="hidden" id="isFolder" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button id="btnEnroll" type="button" class="btn btn-primary" data-dismiss="modal">Join</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                                    i++;
+
+                                    if (i > 3)
+                                    {
+                @:</div><div class='row'>
+                i = 1;
+                                    }
+        }
+    </div>
+    
+}
+else
+{ 
+    <p>No courses found!</p>
+}
+
+<script type="text/javascript">
+    $(function () {
+        //enroll dialog
+        $(document).on("click", ".enrolByPINdialog", function () {
+            var courseId = $(this).data('id');
+            $(".modal-body #courseid").val(courseId);
+            // As pointed out in comments, 
+            // it is superfluous to have to manually call the modal.
+            // $('#addBookDialog').modal('show');
+        });
+        //$("a[id='btnEnroll']").click(function () {
+        //    //pass courseid
+        //    $('div[title="courseid"]').click(function () {
+        //        $("#courseid").val($(this).attr('id'));
+        //    });
+        //    $("#pin-form").dialog("open");
+        //    $("#pin-form").attr("style", "visibility:visible");
+        //});
+
+        $("button#btnEnroll").click(function () {
+            var courseid = $("#courseid").val();
+            var currenttermid = $("#termid").val();
+            var pintxt = $("#name").val(); App.blockUI("div#content");
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                url: "@Url.Action("EnrollByPIN", "Dashboard")",
+                data: "{'courseid':'" + courseid + "', 'pintxt':'" + pintxt + "'}",
+                success: function (response) {
+                    if (response) {
+                        $('#term-courses').html('<img src="/melon/assets/img/ajax-loading-input.gif" /> Loading...');
+                        //notify client
+                        window.setTimeout(function () {
+                            App.unblockUI("div#content");
+                            noty({
+                                text: '<strong>You have joined the course successfully.</strong>',
+                                type: 'success',
+                                timeout: 4000
+                            });
+                        }, 4000);
+
+                        //folder-content
+                        $.get('@Url.Action("GetTermCourses", "Dashboard")', { termid: currenttermid }, function (response) {
+                            $('#term-courses').html(response);
+                        });
+                    } else {
+                        //notify client
+                        window.setTimeout(function () {
+                            App.unblockUI("div#content");
+                            noty({
+                                text: '<strong>Wrong code entered!<strong>',
+                                type: 'danger',
+                                timeout: 4000
+                            });
+                        }, 4000);
+                    }
+                },
+                error: function (xhr, msg) {
+                    alert("Unable to join!");
+                }
+            });
+        });
+    });
+</script>

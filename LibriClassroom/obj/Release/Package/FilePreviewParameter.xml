@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="untclassroom" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Personal\\Desktop\\LibriClassroom\\LibriClassroom\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Personal\\Desktop\\LibriClassroom\\LibriClassroom\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="GoogleConnectionString-Web.config Connection String" description="GoogleConnectionString Connection String used in web.config by the application to access the database." value="Server=tcp:fisnikdoko.database.windows.net,1433;Initial Catalog=UNTClassroom;Persist Security Info=False;User ID=fisko;Password=Classroom4$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Personal\\Desktop\\LibriClassroom\\LibriClassroom\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='GoogleConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Personal\\Desktop\\LibriClassroom\\LibriClassroom\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

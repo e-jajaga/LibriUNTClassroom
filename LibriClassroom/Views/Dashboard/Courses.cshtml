@@ -1,0 +1,198 @@
+﻿@model LibriClassroom.ViewModels.TermCoursesViewModel
+@{
+    ViewBag.Title = "Courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Breadcrumbs line -->
+<div class="crumbs">
+    <ul id="breadcrumbs" class="breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="@Url.Action("Index", new { controller = "Dashboard" })">Home</a>
+        </li>
+        <li class="current">
+            <a href="#" title="">@ViewBag.Title</a>
+        </li>
+    </ul>
+</div>
+<!-- /Breadcrumbs line -->
+
+<!--=== Page Header ===-->
+<div class="page-header">
+    <div class="page-title">
+        <h3>@ViewBag.Title</h3>
+        @*<span>@ViewBag.Message</span>*@
+    </div>
+</div>
+<!-- /Page Header -->
+
+
+@*@section sidebar{*@
+    @*<div class="sidebar-title"><span>Notifications</span> </div>
+    <ul class="notifications demo-slide-in">
+        <li>
+            <div class="col-left"><span class="label label-danger"><i class="icon-warning-sign"></i></span></div>
+            <div class="col-right with-margin"><span class="message">Course <strong>Advanced IT skills</strong> was created.</span> <span class="time">few seconds ago</span> </div>
+        </li>
+        <li>
+            <div class="col-left"><span class="label label-info"><i class="icon-envelope"></i></span></div>
+            <div class="col-right with-margin"><span class="message"><strong>John</strong> sent you a message</span> <span class="time">few second ago</span> </div>
+        </li>
+        <li>
+            <div class="col-left"><span class="label label-success"><i class="icon-plus"></i></span></div>
+            <div class="col-right with-margin"><span class="message"><strong>Emma</strong> enrolled in course OOP</span> <span class="time">4 hours ago</span> </div>
+        </li>
+    </ul>*@
+@*}*@
+<!-- /Page Header -->
+
+<!--/ Notifications -->
+<div class="row">
+    <div class="col-md-6" id="termsChoice">
+        @*<label id="termsChoice"> Term:*@
+        @if (Model.Terms.Count() > 0)
+        {
+            <select id="terms" class="form-control">
+                @foreach (var t in Model.Terms)
+                {
+                    <option value="@t.Value" selected="@t.Selected">@t.Text</option>
+                }
+            </select>
+        }
+        else
+        { <strong>No Terms Currently</strong>}
+        @* </label>*@
+    </div>
+
+    <div id="contentSection" class="col-md-6">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="txtSearch" name="search" placeholder="Start typing the course name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="btnSearchCourse" type="button">Search</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="widget box">
+            <div class="widget-header">
+                <h4><i class="icon-reorder"></i>Course List</h4>
+                <div class="toolbar no-padding">
+                    <div class="btn-group">
+                        <span class="btn btn-xs widget-collapse"><i class="icon-angle-down"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-content" style="padding-top: 30px;">
+                <div id="term-courses">
+                    @Html.Partial("_CoursesList", Model.Courses)
+                </div>
+            </div>
+            <!-- /.widget-content -->
+        </div>
+        <!-- /.widget .box -->
+    </div>
+    <!-- /.col-md-12 -->
+</div>
+<!-- /.row -->
+<!-- /Page Content -->
+
+<div id="pin-form" title="Enroll By PIN" style="font-size: 62.5%; visibility: hidden;">
+    <p class="validateTips">All form fields are required.</p>
+    <form>
+        <fieldset>
+            <label for="pintxt">Pin Code</label>
+            <input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" />
+            <input type="hidden" id="courseid" />
+            <input type="hidden" id="termid" value="@ViewBag.termid" />
+        </fieldset>
+    </form>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            //set focused menu item to My Page
+            $("#nav > li").removeClass('current');
+            $("#my-page").addClass('current');
+
+            //===== Autocomplete =====//
+            // Using typehead.js-library
+            var courses = (function () {
+                var courses = null;
+                $.ajax({
+                    'async': false,
+                    'global': false,
+                    'url': "/Dashboard/Autocomplete",
+                    'dataType': "json",
+                    'success': function (data) {
+                        courses = data;
+                    }
+                });
+                return courses;
+            })();
+            $('#txtSearch').typeahead({
+                name: 'txtSearch',
+                local: courses
+            });
+
+            //$('*[data-autocomplete-url]')
+            //    .each(function () {
+            //        $(this).autocomplete({
+            //            source: $(this).data("autocomplete-url")
+            //        });
+            //    });
+
+            $("#termsChoice").change(function () {
+                var termid = $("select#terms").find(':selected').val();
+                $('#term-courses').html('<img src="../../../melon/assets/img/ajax-loading-input.gif" /> Loading...');
+                $.get('@Url.Action("GetTermCourses", "Dashboard")', { termid: termid }, function (data) {
+                    $('#term-courses').html(data);
+                });
+            });
+
+            $("#btnSearchCourse").click(function () {
+                var searchterm = $("#txtSearch").val();
+                var termid = $("#terms").val();
+                $('#term-courses').html('<img src="../../../melon/assets/img/ajax-loading-input.gif" /> Loading...');
+                SearchCourses(searchterm, termid);
+            });
+
+        });
+
+        function SearchCourses(searchterm, termid) {
+            var postValues = "{'searchterm':'" + searchterm + "', 'termid':'" + termid + "'}"
+            //CreateQuiz(String Activityid, String Username, DateTime DateOpen, DateTime DateClose, int Duration, String Title, String Description, Boolean RandomizeQuestions, Boolean ShowResults, Boolean AllowMultipleRetake, int PassingThreshold, int NegativePoints, int UnansweredPoints, int PointsInGrade)
+
+            $.ajax({
+                url: "/Dashboard/SearchCourses",
+                type: "POST",
+                dataType: "json",
+                data: postValues,
+                contentType: "application/json; charset=utf-8",
+                success: function (msg) {
+                    var courses = $.parseJSON(msg);
+                    $.get('@Url.Action("RenderCourses", "Dashboard")', { jsoncoursels: msg }, function (response) {
+                        $('#term-courses').html(response);
+                    });
+                },
+                error: function (e) {
+                    //notify client
+                    $.get('@Url.Action("GetTermCourses", "Dashboard")', { termid: termid }, function (data) {
+                        $('#term-courses').html(data);
+                    });
+                }
+            });
+        }
+
+    </script>
+}

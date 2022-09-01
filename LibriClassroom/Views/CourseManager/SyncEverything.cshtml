@@ -1,0 +1,12 @@
+﻿@model bool
+@{
+    ViewBag.Title = "SyncEverything";
+}
+
+<h2>SyncEverything</h2>
+@if (Model)
+{
+    <p>Everything synched correctly on @DateTime.Now.ToString()</p>
+} else {
+    <p>Error on: @ViewBag.msg</p>
+}

@@ -1,0 +1,85 @@
+﻿@model IOrderedEnumerable<LibriClassroom.ViewModels.FeedViewModel>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var feed in Model)
+    {
+        string icon = string.Empty;
+        string linku = feed.alternateLink;
+        int ditet = DateTime.Now.Subtract(feed.updateTime).Days;
+        int oret = DateTime.Now.Subtract(feed.updateTime).Hours;
+        int minutat = DateTime.Now.Subtract(feed.updateTime).Minutes;
+        switch (feed.workType)
+        {
+            case "ASSIGNMENT": icon = "icon-cogs"; break;    //file
+            case "SHORT_ANSWER_QUESTION": icon = "icon-comment"; break;    //drop
+            case "MULTIPLE_CHOICE_QUESTION": icon = "icon-question-sign"; break;    //dropupload
+            case "Drive File": icon = "icon-file"; break;    //drive file
+            case "Link": icon = "icon-link"; break;    //link
+            case "Form": icon = "icon-question"; break;    //form
+        }
+    <li>
+        <div class="col1">
+            <div class="content">
+                <div class="content-col1">
+                    <div class="label label-success">
+                        <i class="@icon"></i>
+                    </div>
+                </div>
+                <div class="content-col2">
+                    <div class="desc">
+                        @switch (feed.workType)
+                        {
+                            case "ASSIGNMENT": <text> Assignment <a href="@feed.alternateLink" target="_blank">@feed.title</a> was created on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                            case "SHORT_ANSWER_QUESTION": <text> Short answer question <a href="@feed.alternateLink" target="_blank">@feed.title</a> was posted on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                            case "MULTIPLE_CHOICE_QUESTION": <text> Multiple choice question <a href="@feed.alternateLink" target="_blank">@feed.title</a> was posted on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                            case "Drive File": <text> A file <a href="@feed.alternateLink" target="_blank">@feed.title</a> was uploaded in @feed.matSetName on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                            case "Form": <text> A form <a href="@feed.alternateLink" target="_blank">@feed.title</a> was added in @feed.matSetName on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                            case "Link": <text> A link <a href="@feed.alternateLink" target="_blank">@feed.title</a> was added in @feed.matSetName on <a href='@feed.courseLink'>@feed.courseName</a></text>; break;
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col1 -->
+        <div class="col2">
+            <div class="date">
+                @if(feed.workType == "ASSIGNMENT" || feed.workType=="SHORT_ANSWER_QUESTION" || feed.workType=="MULTIPLE_CHOICE_QUESTION")
+                {
+                    if (ditet >= 30)
+                    {
+                        int muajt = ditet / 30;
+                    <text>@muajt m ago</text>
+                    }
+                    else if (ditet >= 7)
+                    {
+                        int javet = ditet / 7;
+                    <text>@javet w ago</text>
+                    }
+                    else if (ditet >= 1)
+                    {
+                    <text>@ditet d ago</text>
+                    }
+                    else if (oret >= 1)
+                    {
+                    <text>@oret h ago</text>
+                    }
+                    else if (minutat >= 1)
+                    {
+                    <text>@minutat m ago</text>
+                    }
+                    else
+                    {
+                    <text>Just now</text>
+                    }
+                }
+            </div>
+        </div>
+        <!-- /.col2 -->
+    </li>
+    }
+}
+else
+{
+    <text>No recent activity!</text>
+}

@@ -1,0 +1,79 @@
+﻿@model LibriClassroom.LibriDepDean
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!-- Breadcrumbs line -->
+<div class="crumbs">
+    <ul id="breadcrumbs" class="breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="@Url.Action("Index", new {controller = "Home" })">Home</a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", new { controller = "UserManager" })" title="">Users</a>
+        </li>
+        <li class="current">
+            <a href="@Url.Action("Index", new { controller = "UserManager/Edit?id=" + Model.ID })" title="">Edit</a>
+        </li>
+    </ul>
+</div>
+<!-- /Breadcrumbs line -->
+
+<!--=== Page Header ===-->
+<div class="page-header">
+    <div class="page-title">
+        <h3>Edit User Assignment</h3>
+        <span>@ViewBag.Message</span>
+    </div>
+</div>
+<!-- /Page Header -->
+
+<!--=== Page Content ===-->
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="widget box">
+            <div class="widget-header">
+                <h4><i class="icon-reorder"></i>Editing assignment</h4>
+            </div>
+            <div class="widget-content">
+                @using (Html.BeginForm("Edit", "UserManager", FormMethod.Post, new { @class = "form-horizontal row-border" }))
+                {
+                    @Html.HiddenFor(model => model.ID)
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Department:</label>
+                        <div class="col-md-10">
+                            @Html.DropDownList("code", ViewBag.departamentet as SelectList, new { @class = "formcontrol" })
+                        </div>
+                    </div>
+                    
+                    @*<div class="form-group">
+                        <label class="col-md-2 control-label">Code:</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.code, new { @class = "form-control" })
+                        </div>
+                    </div>*@
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">User:</label>
+
+                        <div class="col-md-10">
+                            @*@Html.DropDownList("TermId", ViewBag.semestrat as SelectListItem[])*@
+                            @Html.DropDownList("username", ViewBag.instruktoret as SelectList, new { @class = "formcontrol" })
+                        </div>
+                    </div>
+        
+                    <div class="form-actions">
+                        <input type="submit" value="Save" class="btn btn-primary pull-right" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

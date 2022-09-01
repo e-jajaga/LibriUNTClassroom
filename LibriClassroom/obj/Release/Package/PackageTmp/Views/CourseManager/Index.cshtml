@@ -1,0 +1,154 @@
+﻿@model IEnumerable<LibriClassroom.ViewModels.CourseViewModel>
+
+@{
+    ViewBag.Title = "Course Management";
+    string currentTerm = System.Configuration.ConfigurationManager.AppSettings["CurrentTerm"].ToString();
+}
+
+<!-- DataTables -->
+<script type="text/javascript" src="~/melon/plugins/datatables/tabletools/TableTools.min.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/colvis/ColVis.min.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/columnfilter/jquery.dataTables.columnFilter.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/DT_bootstrap.js"></script>
+
+<!-- Breadcrumbs line -->
+<div class="crumbs">
+    <ul id="breadcrumbs" class="breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="@Url.Action("Index", new { controller = "Home" })">Manage</a>
+        </li>
+        <li class="current">
+            <a href="@Url.Action("Index", new { controller = "CourseManager" })" title="">Courses</a>
+        </li>
+    </ul>
+</div>
+<!-- /Breadcrumbs line -->
+
+<!--=== Page Header ===-->
+<div class="page-header">
+    <div class="page-title">
+        <h3>@ViewBag.Title</h3>
+        <span>@ViewBag.Message</span>
+    </div>
+</div>
+<!-- /Page Header -->
+
+<!--=== Page Content ===-->
+<div class="row">
+    <div class="col-md-12">
+        <p><a class="btn btn-primary" href="@Url.Action("Create", new { controller = "CourseManager" })" title="">Add New</a>
+            <a class="btn btn-primary" href="@Url.Action("ViewTermCourses", new { controller = "CourseManager", term = currentTerm })" title="">Add Multiple Courses</a>
+            @*<a href="@Url.Action("ExportCoursesToExcel", new { controller = "CourseManager" })" title="">Export all</a> courses' statistics in Excel*@
+        </p>
+
+        <br />
+
+        @*@Html.TextBox("search") 
+        <input type="button" value="Search" />*@
+
+        @if (Model.Any())
+        {
+            <div class="widget box">
+                <div class="widget-header">
+                    <h4><i class="icon-reorder"></i>Courses</h4>
+                    <div class="toolbar no-padding">
+                        <div class="btn-group">
+                            <span class="btn btn-xs widget-collapse"><i class="icon-angle-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-content">
+                    <table class="table table-striped table-bordered table-hover datatable" data-display-length="10">
+                        <thead>
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.UpdateTime)</th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Title)
+                                </th>
+                                <th>Course Code
+                                </th>
+                                <th>
+                                    Teacher(s)
+                                </th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.UpdateTime)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Title)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.CourseCode)
+                                    </td>
+                                    <td>
+                                        @if (item.Teachers.Any())
+                                        {
+                                            int teachnr = item.Teachers.Count(); int i = 1;
+                                            foreach (var teacher in item.Teachers)
+                                            {
+                                                <text>@teacher.TeacherName</text>
+                                                if (i < teachnr)
+                                                {
+                                                    <text>,</text>
+                                                }
+                                                i++;
+                                            }
+                                        }
+                                    </td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                                        @Html.ActionLink("Delegate", "Delegate", new { id = item.Id })
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+        else
+        { 
+            <p>No courses registered yet!</p>
+        }
+    </div>
+    <div class="well" style="display: none; margin-top: 10px;" id="add-folder">
+        <legend>Invite Teacher</legend>
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" id="folder-name" class="form-control" placeholder="Folder Name">
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="folder-desc" class="form-control" placeholder="Description">
+            </div>
+            <div class="col-md-4">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="AddFolderSubmit()">Save</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Page Content -->
+
+@section scripts{
+
+    <script type="text/javascript">
+        $(function () {
+            //set focused menu item to My Page
+            $("#nav > li").removeClass('current');
+            $("#manage-page").addClass('current');
+        });
+    </script>
+}

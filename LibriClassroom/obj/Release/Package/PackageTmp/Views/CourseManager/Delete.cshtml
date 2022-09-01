@@ -1,0 +1,17 @@
+﻿@model Boolean
+
+@{
+    ViewBag.Title = "Delete Course";
+}
+
+@if(Model)
+{
+<h2>Course Deleted successfully!</h2>
+}
+else {<h2>Course is already Deleted on GC</h2>}
+@*@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |*@
+        @Html.ActionLink("Back to List", "Index")
+    @*</p>
+}*@

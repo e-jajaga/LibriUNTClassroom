@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Synchronizations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Synchronizations</h2>
+<ul class="sub-menu">
+    <li>
+        <a href="@Url.Action("SyncGoogleUsers", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>1. Sync Google Users</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncGoogleCourses", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>2. Sync Courses CRUD</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncGCourseDelegations", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>3. Sync Teacher Delegations</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncTermCoursesFeeds", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>4. Sync Course Feeds</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncGenerateALLCoursesStats", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>5. Update Course Stats</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncGenerateReports", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>6. Update Reports</a>
+    </li>
+    <li>
+        <a href="@Url.Action("SyncEverything", new { controller = "CourseManager" })">
+            <i class="icon-user"></i>7. Sync All one-by-one</a>
+    </li>
+</ul>
+
+
+
+

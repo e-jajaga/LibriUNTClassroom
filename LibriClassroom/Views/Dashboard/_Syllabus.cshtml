@@ -1,0 +1,40 @@
+﻿@model LibriClassroom.ViewModels.SyllabusViewModel
+@{
+    int i = 0;
+}
+@if (Model != null)
+{
+    @*<a class="btn btn-primary" href="@Url.Action("ExportSyllabusToExcel", new { controller = "Dashboard", with = Model.withsyl })" title="">Export in Excel</a>
+    *@
+    <p>Total: @Model.courses.Count</p>
+    <table class="table table-striped table-bordered table-hover datatable">
+        <thead>
+            <tr>
+                <th>Nr.</th>
+                <th>Title
+                </th>
+                <th>Instructor
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var syll in Model.courses)
+            {
+                i++;
+                <tr>
+                    <td>@i.</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => syll.courseName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => syll.instructors)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <text>No stats available!</text>
+}

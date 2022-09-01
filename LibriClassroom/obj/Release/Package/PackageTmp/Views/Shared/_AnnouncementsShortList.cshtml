@@ -1,0 +1,85 @@
+﻿@model IOrderedEnumerable<Libri.Domain.Interfaces.ViewModels.AnnouncementViewModel>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var ann in Model)
+    {
+    <li>
+        <div class="col1">
+            <div class="content">
+                <div class="content-col1">
+                    @*<div class="label label-info">
+                        <i class="icon-bullhorn"></i>
+                    </div>*@
+                    <img src='@Libri.Infrastructure.Data.GravatarHelper.GetUserGratavar(ann.Username)'
+                                                alt="@ann.Username" class="img" width="30px" style="border: solid 1px #eee;
+                                                padding: 3px;" />
+                </div>
+                <div class="content-col2">
+                    <div class="desc">
+                        <a href="javascript:void(0);" onclick="GotoAnnoucement('@ann.CourseID', '@ann.Id')">
+                            @ann.Title </a> on 
+                        <a href='@Url.Action("Content", new { controller = "Course", id = ann.CourseID })'>@ann.CourseTitle </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col1 -->
+        <div class="col2">
+            <div class="date">
+                @if (DateTime.Now.Subtract(ann.DatePosted).Days >= 1)
+                {
+                    if (DateTime.Now.Subtract(ann.DatePosted).Days == 1)
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Days day ago</text>
+                    }
+                    else
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Days days ago</text>
+                    }
+                }
+                else if (DateTime.Now.Subtract(ann.DatePosted).Hours >= 1)
+                {
+                    if (DateTime.Now.Subtract(ann.DatePosted).Hours == 1)
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Hours hour ago</text>
+                    }
+                    else
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Hours hours ago</text>
+                    }
+                }
+                else if (DateTime.Now.Subtract(ann.DatePosted).Minutes >= 1)
+                {
+                    if (DateTime.Now.Subtract(ann.DatePosted).Minutes == 1)
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Minutes minute ago</text>
+                    }
+                    else
+                    {
+                    <text>@DateTime.Now.Subtract(ann.DatePosted).Minutes minutes ago</text>
+                    }
+                }
+                else
+                {
+                    <text>Just now</text>
+                }
+            </div>
+        </div>
+        <!-- /.col2 -->
+    </li>
+    }
+}
+else
+{
+    <p>No recent announcements found!</p>
+}
+
+
+<script type="text/javascript">
+   
+    function GotoAnnouncement(courseId, annoucementId) {
+        location.href = "Course/Content/" + courseId + "?annoucementId=" + annoucementId;
+    }
+
+</script>

@@ -1,0 +1,64 @@
+﻿@model List<LibriClassroom.Models.ImportCourse>
+@{
+    ViewBag.Title = "ViewTermCourses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- DataTables -->
+<script type="text/javascript" src="~/melon/plugins/datatables/tabletools/TableTools.min.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/colvis/ColVis.min.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/columnfilter/jquery.dataTables.columnFilter.js"></script>
+<!-- optional -->
+<script type="text/javascript" src="~/melon/plugins/datatables/DT_bootstrap.js"></script>
+
+<h2>Current Term Courses</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>
+            <a class="btn btn-primary" href="@Url.Action("Index", new { controller = "CourseManager/CreateMultipleCoursesAsync" })" title="">Create Courses in Batch</a>
+        </p>
+        <br>
+        <div class="widget box">
+            <div class="widget-header">
+                <h4><i class="icon-reorder"></i>Courses</h4>
+                <div class="toolbar no-padding">
+                    <div class="btn-group">
+                        <span class="btn btn-xs widget-collapse"><i class="icon-angle-down"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="widget-content">
+                <table class="table table-striped table-bordered table-hover datatable">
+                    <thead>
+                        <tr>
+                            <td>Title
+                            </td>
+                            <td>CourseCode
+                            </td>
+                            <td>Owner
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var row in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @row.CourseTitle
+                                </td>
+                                <td>
+                                    @row.CourseCode
+                                </td>
+                                <td>
+                                    @row.OwnerId
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

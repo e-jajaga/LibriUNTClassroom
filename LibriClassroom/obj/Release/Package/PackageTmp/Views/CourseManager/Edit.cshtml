@@ -1,0 +1,91 @@
+﻿@model LibriClassroom.Models.LibriCourse
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!-- Breadcrumbs line -->
+<div class="crumbs">
+    <ul id="breadcrumbs" class="breadcrumb">
+        <li>
+            <i class="icon-home"></i>
+            <a href="@Url.Action("Index", new {controller = "Home" })">Home</a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", new { controller = "CourseManager" })" title="">Courses</a>
+        </li>
+        <li class="current">
+            <a href="@Url.Action("Index", new { controller = "CourseManager/Edit?id=" + Model.Id })" title="">Edit</a>
+        </li>
+    </ul>
+</div>
+<!-- /Breadcrumbs line -->
+
+<!--=== Page Header ===-->
+<div class="page-header">
+    <div class="page-title">
+        <h3>Edit Course</h3>
+        <span>@ViewBag.Message</span>
+    </div>
+</div>
+<!-- /Page Header -->
+
+<!--=== Page Content ===-->
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="widget box">
+            <div class="widget-header">
+                <h4><i class="icon-reorder"></i>Editing a course</h4>
+            </div>
+            <div class="widget-content">
+                @using (Html.BeginForm("Edit", "CourseManager", FormMethod.Post, new { @class = "form-horizontal row-border" }))
+                {
+                    <input type="hidden" id="EnteredBy" name="EnteredBy" value="@ViewBag.Username" />
+                    <input type="hidden" id="IsElective" name="IsElective" value="false" />
+                    <input type="hidden" id="Status" name="Status" value="true" />
+                    @Html.HiddenFor(model => model.Id)
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Title:</label>
+
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Code:</label>
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.CourseCode, new { @class = "form-control" })
+                        </div>
+                    </div>@*
+
+                    @*<div class="form-group">
+                        <label class="col-md-2 control-label">Term:</label>
+
+                        <div class="col-md-10">
+                            @Html.DropDownList("Term", ViewBag.semestrat as SelectList, new { @class = "formcontrol" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Instructor:</label>
+
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.OwnerId, new { @class = "form-control" })
+                        </div>
+                    </div>*@
+        
+                    <div class="form-actions">
+                        <input type="submit" value="Save" class="btn btn-primary pull-right" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

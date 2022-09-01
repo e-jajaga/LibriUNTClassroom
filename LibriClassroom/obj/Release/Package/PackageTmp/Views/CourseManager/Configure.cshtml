@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Configure";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p style="text-align: center; width: 100%;">
+    Please wait while the course is being initialized ...<br/><br/>
+    <img src="~/Content/images/ajax-loader.gif" />
+</p>
+
+<br/><br/>
+<p class="error" style="text-align: center; width: 100%;"></p>
+
+@section scripts{
+    <script type="text/javascript">
+
+        $(function () {
+            var id;
+            $.ajax({
+                url: "@Url.Action("InitializeCourse", "CourseManager", new { id = ViewContext.RouteData.Values["id"], area = "Admin" })",
+                type: "POST",
+                dataType: "json",
+                data: "{'id' : '@ViewContext.RouteData.Values["id"]'}",
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    var d = JSON.stringify(response);
+                    //window.setTimeout(function () {
+                    //    App.unblockUI("div#content");
+                    //    noty({
+                    //        text: '<strong>The folder has been successfully created.</strong>',
+                    //        type: 'success',
+                    //        timeout: 4000
+                    //    });
+                    //}, 4000);
+                    window.location = '@Url.Action("Index", "CourseManager", new { area = "Admin" })?id=' + '@ViewContext.RouteData.Values["id"]' + '&resourceid=' + response + '&title=' + '@ViewBag.Course.Title';
+                    //notify client
+                    
+                },
+                error: function (e) {
+                    //notify client
+                    window.setTimeout(function () {
+                        App.unblockUI("div#content");
+                        noty({
+                            text: '<strong>Unable to initialize course.</strong>',
+                            type: 'danger',
+                            timeout: 4000
+                        });
+                    }, 4000);
+                }
+            });
+        });
+    </script>
+}
